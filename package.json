@@ -1,0 +1,15 @@
+{
+  "name": "node-red-project",
+  "description": "A Node-RED Project",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "node-red-dashboard": "*",
+    "node-red-contrib-opcua": "*",
+    "node-red-contrib-modbus": "*",
+    "node-red-contrib-s7": "*",
+    "node-red-node-serialport": "*",
+    "node-red-node-sqlite": "*",
+    "@mindconnect/node-red-contrib-mindconnect": "*"
+  }
+}
