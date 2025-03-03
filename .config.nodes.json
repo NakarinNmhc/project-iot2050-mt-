@@ -972,7 +972,8 @@
                 "module": "node-red-node-sqlite",
                 "file": "/root/.node-red/node_modules/node-red-node-sqlite/sqlite.js"
             }
-        }
+        },
+        "pending_version": "1.1.0"
     },
     "node-red-node-intel-gpio": {
         "name": "node-red-node-intel-gpio",
@@ -1034,6 +1035,63 @@
                 "user": false,
                 "module": "node-red-node-intel-gpio",
                 "file": "/usr/lib/node_modules/node-red/node_modules/node-red-node-intel-gpio/mraa-gpio-led.js"
+            }
+        }
+    },
+    "tuya-led-node": {
+        "name": "tuya-led-node",
+        "version": "1.0.0",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "tuya-led": {
+                "name": "tuya-led",
+                "types": [
+                    "tuya-led"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "tuya-led-node",
+                "file": "/root/.node-red/node_modules/tuya-led-node/tuya-led.js"
+            }
+        }
+    },
+    "magichome-led-node": {
+        "name": "magichome-led-node",
+        "version": "1.0.2",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "magichome-led": {
+                "name": "magichome-led",
+                "types": [
+                    "magichome-led"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "magichome-led-node",
+                "file": "/root/.node-red/node_modules/magichome-led-node/magichome-led.js"
+            }
+        }
+    },
+    "node-red-contrib-ui-led": {
+        "name": "node-red-contrib-ui-led",
+        "version": "0.4.11",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "ui_led": {
+                "name": "ui_led",
+                "types": [
+                    "ui_led"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-ui-led",
+                "file": "/root/.node-red/node_modules/node-red-contrib-ui-led/dist/nodes/ui_led/ui_led.js"
             }
         }
     }

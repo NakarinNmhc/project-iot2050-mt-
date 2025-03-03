@@ -4,12 +4,16 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "node-red-dashboard": "*",
-    "node-red-contrib-opcua": "*",
+    "@mindconnect/node-red-contrib-mindconnect": "*",
+    "magichome-led-node": "~1.0.2",
     "node-red-contrib-modbus": "*",
+    "node-red-contrib-opcua": "*",
     "node-red-contrib-s7": "*",
+    "node-red-contrib-ui-led": "~0.4.11",
+    "node-red-contrib-ui-led2": "~0.4.19",
+    "node-red-dashboard": "*",
     "node-red-node-serialport": "*",
-    "node-red-node-sqlite": "*",
-    "@mindconnect/node-red-contrib-mindconnect": "*"
+    "node-red-node-sqlite": "~1.1.0",
+    "tuya-led-node": "~1.0.0"
   }
 }
